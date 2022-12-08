@@ -1,9 +1,10 @@
 let num=13 
-let r="yes"
+let result ="prime "
 for(i=2;i<num;i++){
 	if(num%i==0){
-            r="no";
+            result ="not a  prime";
+
         }
  }       
- console.log(r)
+ console.log(result)
      
